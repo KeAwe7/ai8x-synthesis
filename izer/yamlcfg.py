@@ -85,7 +85,7 @@ def parse(
                 shell=False,
                 text=True,
                 capture_output=True,
-                timeout=5.0,
+                timeout=30.0,
                 check=False,
             )
             errors = proc.stderr.splitlines()
